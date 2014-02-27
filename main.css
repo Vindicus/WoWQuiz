@@ -1,6 +1,5 @@
 html{
 	height:100%;
-	overflow:hidden;
 }
 #ImgBck{
 	background-image:url("lostisles.jpg");
@@ -97,7 +96,7 @@ img.Clicked{
 	font-family:arial, verdana, sans-serif;
 }
 .buttons img{
-	width:20%;
+	width:15%;
 	display:block;
 	margin:0 auto;
 	cursor:pointer;
