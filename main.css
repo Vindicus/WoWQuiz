@@ -1,0 +1,136 @@
+html{
+	height:100%;
+	overflow:hidden;
+}
+#ImgBck{
+	background-image:url("lostisles.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	z-index:-10;
+	position:fixed;
+}
+header img{
+	display:block;
+	margin:20px auto;
+	width:336px;
+}
+
+#QuizBox{
+	background:#1a0f08;
+	background-image:url("top.jpg");
+	background-repeat:no-repeat;
+	margin:0 auto;
+	width:900px;
+	height:500px;
+	position:relative;
+	box-shadow:10px 2px 13px rgba(0,0,0,0.8);
+	
+}
+.QuizBoxExpand{
+	height:700px;
+}
+
+h2{
+	color:#ffb100;
+	font-family:Arial, Verdana, sans-serif;
+	font-weight:bold;
+	border-bottom:2px solid #552B12;
+position:relative;
+	font-size:24px;
+	top:20px;
+	margin:0 auto;
+	padding:10px;
+	width:70%;
+	text-align:center;
+}
+header p{
+	text-align:center;
+	color:white;
+	
+}
+#QuizBox p{
+	color:#a99877;
+	margin:40px auto 0 auto;
+	padding:10px;
+	width:650px;
+	font-size:18px;
+}
+.Options{
+margin:40px auto 0 auto;
+overflow:hidden;
+width:87%;
+	
+
+	
+}
+.Options img{
+	width:180px;
+	margin-left:10px;
+	height:235px;
+	float:left;
+	background: -webkit-linear-gradient(#231303,#1a0f08);
+	border:2px solid #552B12;
+	cursor:pointer;
+	opacity:0.6;
+		
+}
+.Options img:hover{
+	opacity:1;
+}
+img.Clicked{
+	opacity:1;
+	border:2px solid #603913;
+}
+.buttons{
+	width:900px;
+	margin:50px auto;
+}
+.buttons h3{
+	text-align:center;
+	color:#f7941d;
+	font-size:20px;
+	font-weight:bold;
+	font-family:arial, verdana, sans-serif;
+}
+.buttons img{
+	width:20%;
+	display:block;
+	margin:0 auto;
+	cursor:pointer;
+	
+}
+.buttons img:hover{
+	-webkit-animation:rotation 2s linear infinite;
+	animation:rotation 2s linear infinite;
+}
+#Alliance,#Allianceh3{
+	display:none;
+}
+@keyframes rotation{
+	from{
+		-webkit-transform:rotate(0deg);
+		transform:rotate(0deg);
+	}
+	to{
+		-webkit-transform:rotate(360deg);
+		transform:rotate(360deg);
+	}
+	
+
+}
+@-webkit-keyframes rotation{
+	from{
+		-webkit-transform:rotate(0deg);
+		transform:rotate(0deg);
+	}
+	to{
+		-webkit-transform:rotate(360deg);
+		transform:rotate(360deg);
+	}
+	
+	
+}
