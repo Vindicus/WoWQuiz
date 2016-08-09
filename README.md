@@ -7,3 +7,5 @@ The most interesting parts about this project were creating the questions and th
 1) Firstly, I created an array of questions using javascript objects with some questions, descriptions, and option choices for answers
 2) Then, I used the data attribute to label the correct answer choice and add that correct score to the overall score
 3) I used jQuery ".data" function to grab the correct answer
+
+Access via <a href="http://vindicus.github.io/WoWQuiz/">WoW Quiz</a>
